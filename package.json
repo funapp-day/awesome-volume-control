@@ -1,25 +1,27 @@
 {
   "name": "awesome-volume-control",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.2.25"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "devDependencies": {
-    "@types/node": "^17.0.35",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
-    "@vitejs/plugin-vue": "^2.3.3",
-    "eslint": "^8.16.0",
-    "eslint-plugin-vue": "^9.0.1",
-    "typescript": "^4.7.2",
-    "vite": "^2.9.9",
-    "vite-plugin-eslint": "^1.6.1",
-    "vue-tsc": "^0.34.7"
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.9",
+    "eslint": "8.29.0",
+    "eslint-config-next": "13.0.6",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.56.1",
+    "typescript": "4.9.3"
   }
 }
